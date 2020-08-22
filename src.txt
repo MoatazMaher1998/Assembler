@@ -1,0 +1,18 @@
+.kos om ahmed hany
+.kos omak ya ahmed hany
+Q1       START   100
+         LDR     BETA
+         LDR     GAMMA
+         ADDR    T,S
+.kos om ahmed hany tany         
+         STR     ALPHA
+         ADDR    T,S
+         LDR     BETA
+         SUBR    S,A
+         STR     DELTA
+         J       *
+ALPHA    RESW    1
+DELTA    RESW    1
+BETA     WORD    25
+GAMMA    WORD    4
+         END     Q1
